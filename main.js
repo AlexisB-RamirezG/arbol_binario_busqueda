@@ -35,11 +35,11 @@ bttnInOrder.addEventListener("click", () => {
 });
 
 bttnPreOrder.addEventListener("click", () => {
-    
+    m.showPreInventory();
 });
 
 bttnPostOrder.addEventListener("click", () => {
-    
+    m.showPostInventory();
 });
 
 class Main {

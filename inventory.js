@@ -85,7 +85,7 @@ export default class Inventory {
             this._getInventoryPreOrderAsString(root.left);
         }
         if (root.right != null) {
-            this._getInventorPreOrderAsString(root.right);
+            this._getInventoryPreOrderAsString(root.right);
         }
     }
 
